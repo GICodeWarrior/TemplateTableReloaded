@@ -367,7 +367,7 @@ class TemplateTableRenderer {
       if (is_null($value)) {
         $result = '{{' . $title->getFullText() . '|' . $name . '}}';
       } else {
-        $result = '{{' . $title->getFullText() . '|' . $name . '|' . $value . '}}';
+        $result = '{{' . $title->getFullText() . '|' . $name . '|2=' . $value . '}}';
       }
     }
 
